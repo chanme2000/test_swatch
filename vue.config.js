@@ -1,4 +1,4 @@
-import { fileURLToPath } from 'node:url';
+const { fileURLToPath } = require('node:url');
 const { defineConfig } = require('@vue/cli-service');
 
 module.exports = defineConfig({
