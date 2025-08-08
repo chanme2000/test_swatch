@@ -41,6 +41,14 @@
       "vue/multi-word-component-names": "off"
     }
   },
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+        "@/*": [ 
+        "./src"
+        ]
+    }
+  },
   "browserslist": [
     "> 1%",
     "last 2 versions",
